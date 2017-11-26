@@ -10,6 +10,7 @@ description: 블로그 open
 
 
 ####앞으로 포스팅할 리스트
+
 * Android 개발 관련 포스팅
   * Java
   * Kotlin
@@ -22,4 +23,5 @@ description: 블로그 open
 
 
 ####나와의 다짐
+
 일주일에 2번은 포스팅하겠습니다...뭐든...
