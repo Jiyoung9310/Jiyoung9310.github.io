@@ -8,6 +8,15 @@
  */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+@font-face {
+ font-family: 'KoPub Dotum';
+ font-style: normal;
+ font-weight: 400;
+ src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.eot);
+ src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.eot?#iefix) format('embedded-opentype'),
+ url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.woff) format('woff'),
+ url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.ttf) format('truetype');
+}
 html {
   line-height: 1.15;
   /* 1 */
@@ -402,7 +411,8 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: .5rem 0 1.5rem;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, "KoPub Dotum", sans-serif; }
 
 h1, .h1 {
   font-size: 2em;
@@ -681,7 +691,8 @@ body {
   font-size: 112.5%;
   color: #111;
   overflow-x: hidden;
-  margin: 0; }
+  margin: 0; 
+font-family: "PT Sans", Helvetica, Arial, "KoPub Dotum", sans-serif;}
   body p, body ul {
     margin: 0 0 2rem; }
 
