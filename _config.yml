@@ -26,3 +26,5 @@ social:
    email: jijidev104@gmail.com
 
 google_analytics: ""
+
+theme: jekyll-theme-minimal
